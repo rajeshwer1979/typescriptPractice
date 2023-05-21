@@ -1,0 +1,14 @@
+npm install typescript --save-dev
+npm init
+npx tsc main.ts
+npx tsc main.ts --watch	
+ npx tsc array_methods.ts --watch
+
+
+ ├── src/
+│   ├── converter.ts
+│   └── units.ts
+├── test/
+│   ├── converter-tests.ts
+│   └── units-tests.ts
+└── tsconfig.json
